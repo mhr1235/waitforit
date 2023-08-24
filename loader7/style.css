@@ -1,0 +1,31 @@
+body{
+
+	background-color: #107ba7;
+}
+
+#scroll-image{
+
+	text-align: center;
+
+}
+
+img{
+
+	width: 60%;
+	height: auto;
+	position: absolute;
+
+left: 20%;
+top:5%;
+}
+
+@media (orientation: portrait){
+
+img{
+
+width: 80%;
+left: 10%;
+
+}
+
+}
