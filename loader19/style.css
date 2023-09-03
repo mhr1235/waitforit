@@ -76,22 +76,4 @@ body {
 
 }
 
-@media (orientation: landscape) {
 
-  img{
-
-  width: 70%;
-  height: auto;
-  margin-top: -5%;
-  
-}
-
-.paytm-loader {
-  
-
- margin-top: -90%;
-  
-}
-
-
-}
