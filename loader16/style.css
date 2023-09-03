@@ -1376,4 +1376,15 @@ h1 {
   background-color: white;
   font-size: 10px;
  }
+
+ @keyframes load {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+    
+  }
+}
+	
 }
