@@ -40,7 +40,7 @@ body, html {
   font-weight: bold;
 /*  border: 3px solid #f1f1f1;*/
   position: absolute;
-  top: 70%;
+  top: 75%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
@@ -293,4 +293,35 @@ body, html {
   to {
     background: transparent;
   }
+}
+
+
+@media (orientation: portrait) {
+
+  .bg-image {
+  /* The image used */
+  
+  
+  /* Add the blur effect */
+  /*filter: blur(8px);
+  -webkit-filter: blur(8px);*/
+  
+  /* Full height */
+  background-size: 100% auto; 
+  
+  /* Center and scale the image nicely */
+ 
+/*  background-size: cover;*/
+/*scale: 0.5;*/
+}
+
+.bg-text {
+
+  top: 65%;
+  
+  
+}
+
+
+
 }
