@@ -56,3 +56,42 @@ body {
     box-shadow: 19px 0 0 0, 38px 0 0 3px, 57px 0 0 7px;
   }
 }
+
+@media (orientation: portrait) {
+
+  img{
+
+  width: 90%;
+  height: auto;
+  
+}
+
+.paytm-loader {
+  
+
+  margin-top: -215%;
+  
+}
+
+
+}
+
+@media (orientation: landscape) {
+
+  img{
+
+  width: 70%;
+  height: auto;
+  margin-top: -5%;
+  
+}
+
+.paytm-loader {
+  
+
+ margin-top: -90%;
+  
+}
+
+
+}
