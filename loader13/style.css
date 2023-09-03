@@ -3,7 +3,7 @@ body{
  background: grey;
   text-align: center;
 /*  background-image: url('sunrise.png');*/
-  background-position-y: -15%;
+  background-position-y: -20%;
   background-position-x: 50%;
   background-repeat: no-repeat;
 
@@ -16,7 +16,7 @@ body{
 #sunrise{
 
 position: absolute;
-margin-top: -60%;
+margin-top: -80%;
 
 
 }
@@ -163,6 +163,7 @@ div.spinner div.bar12 {
   
   margin-top: -80%;
 }
+
 
 }
 
