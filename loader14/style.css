@@ -189,3 +189,13 @@ body {
   }
 
 }
+
+@media screen and (orientation:portrait) {
+
+.ag-bubbles-block {
+  height: 2000px;
+  width: 1000px;
+ 
+}
+
+}
