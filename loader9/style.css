@@ -219,6 +219,22 @@ a.button:hover {
 }
 
  @media (orientation: portrait) {
+
+
+ 	.loading {
+
+ 
+  width: 50px;
+  height: 50px;
+border: 0.65rem solid #00afef;
+  border-top-color: #008ccf;
+  margin-top: 70%;
+  margin-left: 45%;
+  position: absolute;
+  z-index: 24;
+  
+
+}
         body {
           margin: 1%;
           font-size: 3.0rem;
@@ -259,23 +275,25 @@ a.button {
   margin-right: 1%;
 }
 
+
+
 #logo{
 
-	height: 50%;
+	height: 65%;
 	width: auto;
 }
 .content > * {
 	
-	max-width: 100%;
+	
+	max-width: 110%;
 	margin-left: 0;
 }
 
 .straightup {
-	
-	width: 100%;
-	height: auto;
-	filter: blur(20px);
-  -webkit-filter: blur(20px);
+	width: 101%;
+
+	filter: blur(6px);
+  -webkit-filter: blur(6px);
 
 	
 
@@ -288,25 +306,16 @@ a.button {
 
 .icon-bar a {
 	
-	font-size: 5.0rem;
+	font-size: 1.5rem;
 
 
 
 
 }
-.loading {
 
- 
-  width: 80px;
-  height: 80px;
-border: 0.65rem solid #00afef;
-  border-top-color: #008ccf;
-  margin-top: 70%;
-  position: absolute;
-  z-index: 24;
-  
 
-}
+
+
 
 }
 
