@@ -132,6 +132,7 @@ width: 0.5em;
 height: 0.5em;
 border-radius: 0.25em;
 transform: translate(-50%, -50%);
+
 }
 .cssLoader17:before {
 animation: before 2s infinite;
@@ -178,4 +179,21 @@ box-shadow: 0.5em 1em rgba(61, 184, 143, 0.75), -0.5em -1em rgba(233, 169, 32, 0
 position: absolute;
 top: calc(50% - 1.25em);
 left: calc(50% - 1.25em);
+}
+
+@media (orientation: portrait) {
+img{
+
+   
+   width: 60%;
+   height: auto;
+   margin-top: 50%;
+}
+.cssLoader17:before, .cssLoader17:after {
+
+scale: 1.2;
+
+}
+
+
 }
