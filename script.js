@@ -1,22 +1,32 @@
-let settings = {
-  width: 10,
-  height: 1,
-  color: '#000000' };
+ const links = [];
+links[0]= "./loader2/index.html";
+links[1]= "./loader3/index.html";
+links[2]= "./loader4/index.html";
+links[3]= "./loader5/index.html";
+links[4]= "./loader1/index.html";
+links[5]= "./loader6/index.html";
+links[6]= "./loader7/index.html";
+links[7]= "./loader8/index.html";
+links[8]= "./loader9/index.html";
+links[9]= "./loader10/index.html";
+links[10]= "./loader11/index.html";
+links[11]= "./loader12/index.html";
+links[12]= "./loader13/index.html";
+links[13]= "./loader14/index.html";
+links[14]= "./loader15/index.html";
+links[15]= "./loader17/index.html";
+links[16]= "./loader18/index.html";
+links[17]= "./loader19/index.html";
+links[18]= "./loader20/index.html";
+links[19]= "./loader16/index.html";
 
 
-/* DATA GUI */
-const gui =
-function datgui() {
-  var gui = new dat.GUI();
-  // dat.GUI.toggleHide();
-  gui.add(settings, "height", 1, 50).step(1).onChange(function (newValue) {
-    document.documentElement.style.setProperty(`--item-width`, newValue + 'px');
-  });
-  gui.add(settings, "width", 1, 10).step(1).onChange(function (newValue) {
-    document.documentElement.style.setProperty(`--item-height`, newValue + 'px');
-  });
-  gui.addColor(settings, "color").onChange(function (newValue) {
-    document.documentElement.style.setProperty(`--color`, newValue);
-  });
-  return gui;
-}();
+loadNew();
+
+function loadNew() {
+
+let random_url = Math.floor(Math.random() * 20); 
+
+ //console.log(random_url);
+  location.href = links[random_url];
+}
