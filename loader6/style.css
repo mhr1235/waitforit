@@ -426,6 +426,30 @@ color: rgb(29, 161, 242);
   }
 }
 
+ #load{
+  position: absolute;
+  /*display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;*/
+  margin-left: 46%;
+  margin-top: 46%;
+  
+  }
+
+  button{
+
+/*    z-index: 102;*/
+border: none;
+border-radius: 15px;
+background-color: white;
+color: #1DA1F2;
+padding: 5px;
+box-shadow: 5px 5px lightgrey;
+  }
+
+
 @media (orientation: portrait){
  nav {
     -webkit-flex-flow: row nowrap;
@@ -466,5 +490,20 @@ color: rgb(29, 161, 242);
     opacity: 1;
     pointer-events: auto;
   }
-}
+
+   #load{
+  
+  margin-left: 39%;
+  margin-top: 116%;
+  
+  }
+
+  button{
+
+    font-size: 30px;
+
+  }
+
+
+ }
 
