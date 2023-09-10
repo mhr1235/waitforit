@@ -9,19 +9,38 @@ body{
 
 }
 
-img{
+.test{
 
 	width: 60%;
 	height: auto;
 	position: absolute;
 
 left: 20%;
+top:9%;
+}
+
+#top-bar{
+	width: 60%;
+	height: auto;
+	position: absolute;
+
+left: 20%;
 top:5%;
+z-index: 99999;
+
 }
 
 @media (orientation: portrait){
 
-img{
+#top-bar{
+	width: 80%;
+	left: 10%;
+	top:7%;
+
+
+
+}
+.test{
 
 width: 80%;
 left: 10%;
